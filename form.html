@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JETA Registration Form</title>
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css-training.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/service.css">
+  <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+ 
+  <style>
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body,
+    div,
+    form,
+    input,
+    select,
+    p {
+      padding: 0;
+      margin: 0;
+      outline: none;
+      /* font-family: Roboto, Arial, sans-serif;
+      font-size: 16px; */
+      color: #eee;
+    }
+
+    body {
+      /* background-color: rgb(196, 209, 196); */
+      background-size: cover;
+    }
+
+    h1,
+    h2 {
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+
+    h2 {
+      margin: 0 0 0 8px;
+    }
+
+    .main-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 25px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .left-part,
+    form {
+      padding: 25px;
+    }
+
+    .left-part {
+      text-align: center;
+    }
+
+    .fa-graduation-cap {
+      font-size: 72px;
+    }
+
+    form {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input,
+    select {
+      padding: 5px;
+      margin-bottom: 30px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #eee;
+    }
+
+    input::placeholder {
+      color: #eee;
+    }
+
+    option:focus {
+      border: none;
+    }
+
+    option {
+      background: black;
+      border: none;
+    }
+
+    /* .checkbox input {
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+      }
+      .checkbox a {
+      color: #26a9e0;
+      }
+      .checkbox a:hover {
+      color: #85d6de;
+      } */
+    .btn-item,
+    button {
+      padding: 10px 5px;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: none;
+
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 400;
+      color: #fff;
+    }
+
+    .btn-item {
+      display: inline-block;
+      margin: 20px 5px 0;
+    }
+
+    button {
+      width: 100%;
+    }
+
+    button:hover,
+    .btn-item:hover {
+      background: #85d6de;
+    }
+
+    @media (min-width: 568px) {
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      .main-block {
+        flex-direction: row;
+        height: calc(120% - 70px);
+      }
+
+      .left-part,
+      form {
+        flex: 1;
+        height: auto;
+      }
+
+      .form {
+        background-color: rgb(211, 203, 203);
+      }
+
+      .text-dec {
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="col-md-4">
+
+    </div>
+  </div>
+
+  <div form class="main-block form">
+    <!-- NAVBAR -->
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light shadow-lg navbar-font" aria-label="">
+      <div class="container-fluid">
+        <a class="text-danger navbar-brand " href="index.html">
+          <img class="navbar-brand" width="200px" src="assets/img/lg.png" alt="logo for JETA"></a>
+          
+          <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample03">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="text-danger nav-link active px-3" aria-current="page" href="index.html"><strong>Home</strong></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="text-danger nav-link active px-3" href="#service-what" tabindex="-1" aria-disabled="true"><strong>Baisc ICT Services</strong></a>
+            </li> -->
+  
+            <li class="nav-item dropdown">
+              <a class="text-danger nav-link active dropdown-toggle px-3" href="#" id="dropdown03"
+                data-bs-toggle="dropdown" aria-expanded="false"><strong>Services</strong></a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="#service-what">Basic ICT</a></li>
+                <li><a class="dropdown-item" href="#service-what">Consultancy</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="text-danger nav-link active dropdown-toggle px-3" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false"><strong>Products</strong></a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="#">JETA-CMIS</a></li>
+                <li><a class="dropdown-item" href="https://assignment.ng/">Assignment.ng</a></li>
+                <li><a class="dropdown-item" href="#">JETA CBT</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="text-danger nav-link active px-3" href="training.html" tabindex="-1" aria-disabled="true"><strong>Training</strong></a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="text-danger nav-link active px-3" href="https://webmail.jetacomms.tech/" tabindex="-1" aria-disabled="true"><strong>Webmail</strong></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="text-danger nav-link active px-3" href="#" tabindex="-1" aria-disabled="true"><strong>Book Store</strong></a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+  </nav>
+    <!-- NAVBAR -->
+      <!-- <div class="left-part">
+        <i class="fas fa-graduation-cap"></i>
+        <h1>Register to our courses</h1>
+        <p>Jeta Communications Tech Hub provides the best learning facilites and materials for training programmes.</p>
+        <div class="btn-group">
+        </div>
+      </div> -->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <form action="mailto:info@jetacomms.tech" method="post" class="bg-success">
+          <div class=" p-1 text-center">
+            <i class="fas fa-pencil-alt"></i>
+            <h2>Register here</h2>
+          </div>
+          <div class="info">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6OLINBMkOgLOt8cV4l_2AcaxsI47pTlBbR_ap8XuP1qpK1g/viewform?embedded=true" width="840" height="506" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+            <!-- <input class="fname" type="text" required name="name" placeholder="Full name">
+            <input type="email" name="name" required placeholder="Email">
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone number"> -->
+
+            <!-- <select required>
+              <option value="Course-type" selected>Course type*</option>
+              <option value="Non-Applicant">Non-Applicant</option>
+              <option value="Certificate-in-computer-basics">Certificate in Computer Basics</option>
+              <option value="Certificate-in-microsoft-office-application">Certificate in Microsoft Office Applications
+              </option>
+              <option value="Certificate-in-basic-programming-with-phython">Certificate in Basic Programming with
+                Python </option>
+              <option value="Certificate-in-graphics-design">Certificate in Graphics Design </option>
+              <option value="Certificate-in-frontend-web-design">Certificate in Front-end Web Design</option>
+              <option value="Computer-Programming-Apprenticeship">Certificate Computer Programming Apprenticeship</option>
+              <option value="Computer-Programming-Apprenticeship">Certificate Computer Hardware (CCH)</option>
+              <option value="Computer-Programming-Apprenticeship">Certificate Computer Networking (CCN)</option>
+              <option value="Computer-Programming-Apprenticeship">Certificate in Embedded Programming with C/C++ (CEPC)</option>
+              <option value="Computer-Programming-Apprenticeship">Coding4Teens (Special Course)</option>
+              <option value="Computer-Programming-Apprenticeship">Coding4KIDs (Special Course)</option>
+            </select> -->
+          </div>
+
+          <!-- <div class="checkbox">
+            <input type="checkbox" name="checkbox"><span>I agree to the <a href="#" class="text-light">Terms and Conditions of JETA Communications Tech Hub.</a></span>
+          </div>
+          <button class="btn-outline-danger" type="" href="mailto:info@jetacomms.tech">Next</button> -->
+        </form>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <footer class="site-footer bg-dark">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
+          <h1 class="text-light p-2 pt-3" data-aos="fade-up" data-aos-delay="100">Our brands are <strong>Innovative and Transformative.</strong></h1>
+        </div>
+
+        <div class=" text-light col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+          <h4 class="my-4">Contact Info</h4>
+
+          <p class="mb-1">
+            <i class="fa fa-phone mr-2 footer-icon"></i> <br>
+            +234 810 1096 623 <br>+234 817 1074 476
+          </p>
+
+          <p>
+            <a href="#">
+              <i class="fa fa-envelope mr-2 footer-icon text-decoration-none"></i>
+              <br><small>jetacomms@gmail.com</small>
+              <br><small>info@jetacomms.tech</small> 
+            </a>
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+          <h4 class="my-4">Our Office</h4>
+
+          <p class="mb-1">
+            <i class="fa fa-home mr-2 footer-icon"></i>
+            Plot 36, Great Estate Phase One, Atan-Ota Ogun State, Nigeria.
+          </p>
+        </div>
+
+        <div class="col-lg-4 mx-lg-auto text-decoration-none text-center col-md-8 col-12" data-aos="fade-up"
+          data-aos-delay="400">
+          <p class="copyright-text text-decoration-none ">Copyright &copy; 2021 JETA Communications</p>
+        </div>
+
+
+
+        <div class="col-lg-3 mx-lg-auto col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+          <ul class="social-icon">
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-dribbble"></a>
+          <a href="#" class="fab fa-facebook"></a>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- //footer nav -->
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/fonts/js/all.min.js"></script>
+
+</body>
+
+</html>
