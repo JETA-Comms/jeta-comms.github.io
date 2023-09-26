@@ -2,558 +2,532 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JETA Communications </title>
-  <link rel="shortcut icon" href="assets/img/favicon.ico">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/fonts/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css-training.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/service.css">
-  <link rel="stylesheet" href="assets/fonts/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+    <meta charset="utf-8">
+    <title>JETA COMMUNICATIONS | Digital Skills Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico">
 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Spinner Start -->
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div> -->
+    <!-- Spinner End -->
 
-  <!-- NAVBAR -->
 
-  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light shadow-lg navbar-font" aria-label="">
-    <div class="container-fluid">
-      <a class="text-danger navbar-brand " href="index.html">
-        <img class="navbar-brand" width="200px" src="assets/img/lg.png" alt="logo for JETA"></a>
-
-      <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample03">
-        <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a class="text-danger nav-link active px-3" aria-current="page" href="index.html"><strong>Home</strong></a>
-          </li>
-          <!-- <li class="nav-item">
-              <a class="text-danger nav-link active px-3" href="#service-what" tabindex="-1" aria-disabled="true"><strong>Baisc ICT Services</strong></a>
-            </li> -->
-
-          <li class="nav-item dropdown">
-            <a class="text-danger nav-link active dropdown-toggle px-3" href="#" id="dropdown03"
-              data-bs-toggle="dropdown" aria-expanded="false"><strong>Services</strong></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown03">
-              <li><a class="dropdown-item" href="#service-what">Basic ICT</a></li>
-              <li><a class="dropdown-item" href="#service-what">Consultancy</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="text-danger nav-link active dropdown-toggle px-3" href="#" id="dropdown03"
-              data-bs-toggle="dropdown" aria-expanded="false"><strong>Products</strong></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown03">
-              <li><a class="dropdown-item" href="#">JETA-CMIS</a></li>
-              <li><a class="dropdown-item" href="https://assignment.ng/">Assignment.ng</a></li>
-              <li><a class="dropdown-item" href="#">JETA CBT</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="text-danger nav-link active px-3" href="training.html" tabindex="-1"
-              aria-disabled="true"><strong>Training</strong></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="text-danger nav-link active px-3" href="https://webmail.jetacomms.tech/" tabindex="-1"
-              aria-disabled="true"><strong>Webmail</strong></a>
-          </li>
-          <!-- <li class="nav-item">
-              <a class="text-danger nav-link active px-3" href="#" tabindex="-1" aria-disabled="true"><strong>Book Store</strong></a>
-            </li> -->
-        </ul>
-      </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria.</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-1">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Sat : 08.00 AM - 05.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+234 810 109 6623</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.linkedin.com/in/jeta-communications-5667a121b/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.instagram.com/jetacomms/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
+    <!-- Topbar End -->
 
-  <!-- NAVBAR -->
 
-  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light shadow-sm navbar-font" aria-label="">
-    <div class="container-fluid">
-      <a class="text-danger navbar-brand " href="index.html">
-        <img class="navbar-brand" width="200px" src="assets/img/lg.png" alt="logo for JETA"></a>
-
-      <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+      <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+          <img src="./img/jeta-logo.png" alt="" width="220">
+          <!-- <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>obdif</h2> -->
+      </a>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample03">
-        <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a class="text-danger nav-link active px-3" aria-current="page" href="index.html"><strong>Home</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="text-danger nav-link active px-3" href="#" tabindex="-1" aria-disabled="true"><strong>Baisc ICT
-                Service</strong></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="text-danger nav-link active dropdown-toggle px-3" href="#" id="dropdown03"
-              data-bs-toggle="dropdown" aria-expanded="false"><strong>Products</strong></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown03">
-              <li><a class="dropdown-item" href="#">JETA-CMIS</a></li>
-              <li><a class="dropdown-item" href="#">Assignment.ng</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="text-danger nav-link active px-3" href="#" tabindex="-1"
-              aria-disabled="true"><strong>Training</strong></a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="text-danger nav-link active px-3" href="#" tabindex="-1" aria-disabled="true"><strong>Book Store</strong></a>
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  <body class="training-bg">
-    <div class="p-5">
-      <h1 class=" display-3 text-center text-danger"> <strong> TRAINING TRACKS</strong></h1><br><br>
-      <h5 class=" display-5 text-center text-danger"> <strong> Short Term Certificate Courses </strong></h5>
-
-      <div class="row  text-center pt-3 card-size">
-
-        <div class="col-lg-4 col-md-6 p-3 d-flex">
-
-          <div class="col Service container d-flex ">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal pricing-header text-light">Track One</h4>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="index.html" class="nav-item nav-link">Services</a>
+              <a href="training.html" class="nav-item nav-link">Training</a>
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                  <div class="dropdown-menu fade-up m-0">
+                      <a href="http://test.jetacomms.tech/" class="dropdown-item">JETA-CBT</a>
+                  </div>
               </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Computer Basics (CCB) - 40hours</h1>
-                <ul class="list-unstyled mt-3 mb-4">
+              <a href="/jeta-authreg/index.html" class="nav-item nav-link">Portal</a>
+              <a href="galleries.html" class="nav-item nav-link">Gallery</a>
+              <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
+          </div>
+          <!-- <a href="" class="btn green-bg py-4 px-lg-5 d-none d-lg-block">Register Now<i class="fa fa-arrow-right ms-3"></i></a> -->
+      </div>
+  </nav>
+
+    <div class="p-5 wow fadeInUp">
+        <h1 class=" display-5 text-center text-danger"> <strong> TRAINING TRACKS</strong></h1><br><br>
+        <h5 class=" display-6 text-center text-danger"> <strong> Short Term Certificate Courses </strong></h5>
+  
+        <div class="row  text-center pt-3 card-size">
+  
+          <div class="col-lg-4 col-md-6 p-3 d-flex">
+  
+            <div class="col Service container d-flex ">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal pricing-header text-light white">Track One</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Computer Basics (CCB) - 40hours</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <br>
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N10,000</li>
+                  </ul>
                   <br>
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N10,000</li>
-                </ul>
-                <br>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-4 col-md-6 p-3 d-flex card-size">
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Two </h4>
+                </div>
+                <div class="card-body ">
+                  <h1 class="card-title pricing-card-title">Certificate in Microsft Office Applications (CMOA) - 40hours
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N10,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
+  
+            <div class="col container">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Three</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Basic Programming with Python(CBPP) - 40hours
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N50,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Four</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Computer Graphics Design (CCGD) - 40hours</h1>
+                  <br>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N20,000</li>
+                  </ul>
+                  <br>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 white fw-normal white">Track Five</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title"> Certificate in Frontend Web Design (CFWD) - 40Hours </h1>
+                  <br>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N20,000</li>
+                  </ul>
+                  <br>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Six</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Computer Hardware (CCH) - 40hours</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N20,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
               </div>
             </div>
           </div>
-
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 p-3 d-flex card-size">
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Two </h4>
-              </div>
-              <div class="card-body ">
-                <h1 class="card-title pricing-card-title">Certificate in Microsft Office Applications (CMOA) - 40hours
-                </h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N10,000</li>
-                </ul>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
+  
+          <div class="col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Seven</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Computer Networking (CCN) - 40hours</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N20,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
               </div>
             </div>
           </div>
-
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
-
-          <div class="col container">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Three</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Basic Programming with Python(CBPP) - 40hours
-                </h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N50,000</li>
-                </ul>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Four</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Computer Graphics Design (CCGD) - 40hours</h1>
-                <br>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N20,000</li>
-                </ul>
-                <br>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
+  
+  
+          <div class="col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Eight</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Embedded Programming with C/C++ (CEPC) -
+                    40hours</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N50,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
               </div>
             </div>
           </div>
-
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Five</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title"> Certificate in Frontend Web Design (CFWD) - 40Hours </h1>
-                <br>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N20,000</li>
-                </ul>
-                <br>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
+  
+  
+          <div class=" col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Nine</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Fundamentals of Artificial Intelligence (CFAI) -
+                    40hours</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N50,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
               </div>
             </div>
           </div>
-
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Six</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Computer Hardware (CCH) - 40hours</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N20,000</li>
-                </ul>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Seven</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Computer Networking (CCN) - 40hours</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N20,000</li>
-                </ul>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
+  
+  
+          <div class=" col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Track Ten</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Certificate in Digital Marketing (CDM) -
+                    40hours</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N20,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-
-        <div class="col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Eight</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Embedded Programming with C/C++ (CEPC) -
-                  40hours</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N50,000</li>
-                </ul>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class=" col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Nine</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Fundamentals of Artificial Intelligence (CFAI) -
-                  40hours</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N50,000</li>
-                </ul>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
+  
+          <!-- =================== COMPUTER PROGRAMMING APPRENTICESHIP======================= -->
+          <h5 class=" display-6 text-center text-danger"> <strong> Computer Programming Apprenticeships </strong></h5>
+          <!-- 
+          <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
+  
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal">Computer Programming Apprenticeship(CPA)</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">(CPA) - 3 to 6 Months</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N50,000</li>
+                  </ul>
+                  <a href="form.html"><button type="button" class="w-100 btn btn-lg btn-outline-danger" >Register</button></a>
+                  
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-
-        <div class=" col-md-6 p-3 card-size d-flex"><!---col-lg-4---->
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Track Ten</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Certificate in Digital Marketing (CDM) -
-                  40hours</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N20,000</li>
-                </ul>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
+          </div> -->
+  
+          <div class=" col-md-6 p-3 card-size d-flex"> <!--(col-lg-4) THIS WAS REMOVED TO MAKE THE CARD LARGE -->
+  
+            <div class="col container">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Coding4Teens (C4T) Apprenticeships</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">(C4T)- 6 Months</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N90,000</li>
+                  </ul>
+                  <div class="track_section">
+                    <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 1: </span> C4T
+                      Basic Apprenticeship (C4T-BA)</p>
+                    <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 2: </span> C4T
+                      Intermediate Apprenticeship (C4T-IA)</p>
+                    <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 3: </span> C4T
+                      Advanced Apprenticeship (C4T-AA)</p>
+                  </div>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
               </div>
             </div>
+  
           </div>
-        </div>
-
-        <!-- =================== COMPUTER PROGRAMMING APPRENTICESHIP======================= -->
-        <h5 class=" display-5 text-center text-danger"> <strong> Computer Programming Apprenticeships </strong></h5>
-        <!-- 
-        <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
-
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Computer Programming Apprenticeship(CPA)</h4>
+  
+  
+          <div class=" col-md-6 p-3 card-size d-flex">
+  
+            <div class="col container">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal white">Coding4Kids (C4K) Apprenticeships</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">(C4K)- 3 Months</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N30,000</li>
+                  </ul>
+                  <div class="track_section">
+                    <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 1: </span> C4K
+                      Basic Apprenticeship (C4K-BA)</p>
+                    <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 2: </span> C4K
+                      Intermediate Apprenticeship (C4K-IA)</p>
+                    <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 3: </span> C4K
+                      Advance Apprenticeship (C4K-AA)</p>
+                  </div>
+                  <a href="form.html"><button type="button"
+                      class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
+  
+                </div>
               </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">(CPA) - 3 to 6 Months</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N50,000</li>
-                </ul>
-                <a href="form.html"><button type="button" class="w-100 btn btn-lg btn-outline-danger" >Register</button></a>
-                
+            </div>
+  
+          </div>
+  
+          <!-- <br><br>
+        <h1 class=" display-6  text-danger"> <strong> SPECIALIZED TRACKS</strong></h1>
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
+            <div class="col container d-flex">
+              <div class="card mb-4 rounded-3 shadow-sm border-success">
+                <div class="card-header py-3 text-white bg-success border-success">
+                  <h4 class="my-0 fw-normal">Specialized Track</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Coding4Teens</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Registration Form - N1,000</li>
+                    <li>Course Fees - N5,500</li>
+                  </ul>
+                  <a href="form.  html"><button type="button" class="w-100 btn btn-lg btn-outline-danger" >Register</button></a>
+                  
+                </div>
               </div>
             </div>
           </div>
         </div> -->
+  
+        </div>
+      </div>
+  
 
-        <div class=" col-md-6 p-3 card-size d-flex"> <!--(col-lg-4) THIS WAS REMOVED TO MAKE THE CARD LARGE -->
-
-          <div class="col container">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Coding 4 Teens (C4T) Apprenticeships</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">(C4T)- 6 Months</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N90,000</li>
-                </ul>
-                <div class="track_section">
-                  <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 1: </span> C4T
-                    Basic Apprenticeship (C4T-BA)</p>
-                  <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 2: </span> C4T
-                    Intermediate Apprenticeship (C4T-IA)</p>
-                  <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 3: </span> C4T
-                    Advance Apprenticeship (C4T-AA)</p>
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria.</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+234 810 109 6623</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+234 817 1074 476</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>
+                      <a href=""> info@jetacomms.tech</a> <br> <a href="">jetacomms@gmail.com</a> 
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/jetacomms/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@jetacommunicationstechhub1752"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/jeta-communications-5667a121b/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div class=" col-md-6 p-3 card-size d-flex">
-
-          <div class="col container">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Coding 4 Kid (C4K) Apprenticeships</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">(C4K)- 3 Months</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N30,000</li>
-                </ul>
-                <div class="track_section">
-                  <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 1: </span> C4K
-                    Basic Apprenticeship (C4K-BA)</p>
-                  <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 2: </span> C4K
-                    Intermediate Apprenticeship (C4K-IA)</p>
-                  <p style="font-size: 15px;"><span style="font-size: 20px; font-weight: bold;">Track 3: </span> C4K
-                    Advance Apprenticeship (C4K-AA)</p>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">08.00 AM - 05.00 PM</p>
+                    <h6 class="text-light">Saturday:</h6>
+                    <p class="mb-0">10.00 AM - 05.00 PM</p>
                 </div>
-                <a href="form.html"><button type="button"
-                    class="w-100 btn btn-lg btn-outline-danger">Register</button></a>
-
-              </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="index.html#service">Mobile App Development</a>
+                    <a class="btn btn-link" href="index.html#service">Web Development</a>
+                    <a class="btn btn-link" href="index.html#service">Graphic Designing</a>
+                    <a class="btn btn-link" href="index.html#service">Digital Marketing</a>
+                    <a class="btn btn-link" href="index.html#service">AI Programming with MATLAB and Python</a>
+                    <a class="btn btn-link" href="index.html#service">Data Analytics with Python</a>
+                    <a class="btn btn-link" href="index.html#service">Research Computing with MATLAB and Python</a>
+                    <a class="btn btn-link" href="index.html#service">Embedded Programming with C/C++</a>
+                    <!-- <a class="btn btn-link" href=""></a> -->
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Subscribe to get our eNewsletters.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
+                    </div>
+                </div>
             </div>
-          </div>
-
         </div>
-
-        <!-- <br><br>
-      <h1 class=" display-6  text-danger"> <strong> SPECIALIZED TRACKS</strong></h1>
-      <div class="row text-center">
-        <div class="col-lg-4 col-md-6 p-3 card-size d-flex">
-          <div class="col container d-flex">
-            <div class="card mb-4 rounded-3 shadow-sm border-success">
-              <div class="card-header py-3 text-white bg-success border-success">
-                <h4 class="my-0 fw-normal">Specialized Track</h4>
+        <div class="container">
+          <div class="copyright">
+              <div class="row">
+                  <div class=" text-center  mb-3 mb-md-0">
+                      Copyright &copy; <a class="border-bottom" href="index">JETA Communications</a>, All Rights Reserved 2023.
               </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Coding4Teens</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Registration Form - N1,000</li>
-                  <li>Course Fees - N5,500</li>
-                </ul>
-                <a href="form.  html"><button type="button" class="w-100 btn btn-lg btn-outline-danger" >Register</button></a>
-                
-              </div>
-            </div>
           </div>
-        </div>
-      </div> -->
-
       </div>
     </div>
+    <!-- Footer End -->
 
 
-
-    <footer class="site-footer bg-dark">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
-            <h1 class="text-light p-2 pt-3" data-aos="fade-up" data-aos-delay="100">Our brands are <strong>Innovative
-                and Transformative.</strong></h1>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
-            <h4 class="my-4">Contact Info</h4>
-
-            <p class="mb-1">
-              <i class="fa fa-phone mr-2 footer-icon"></i> <br>
-              +234 810 1096 623 <br>+234 817 1074 476
-            </p>
-
-            <p>
-              <a href="#">
-                <i class="fa fa-envelope mr-2 footer-icon text-decoration-none"></i>
-                <br><small>jetacomms@gmail.com</small>
-                <br><small>info@jetacomms.tech</small>
-              </a>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
-            <h4 class="my-4">Our Office</h4>
-
-            <p class="mb-1">
-              <i class="fa fa-home mr-2 footer-icon"></i>
-              Plot 36, Great Estate Phase One, Atan-Ota Ogun State, Nigeria.
-            </p>
-          </div>
-
-          <div class="col-lg-4 mx-lg-auto text-decoration-none text-center col-md-8 col-12" data-aos="fade-up"
-            data-aos-delay="400">
-            <p class="copyright-text text-decoration-none ">Copyright &copy; 2023 JETA Communications</p>
-          </div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-          <div class="col-lg-3 mx-lg-auto col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
-            <ul class="social-icon">
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-facebook"></a>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-
-    <!-- //footer nav -->
-
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/fonts/js/all.min.js"></script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/628e39c7b0d10b6f3e73feba/1g3tp3d9k';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-    <!--End of Tawk.to Script-->
-
-  </body>
-
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
 
 </html>
