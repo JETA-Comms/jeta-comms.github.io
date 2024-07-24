@@ -223,7 +223,7 @@
 
 /*** Facts ***/
 .fact {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/jeta-student-sitting-and-pressing-laptop-at-the-tech-hub.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://res.cloudinary.com/dwxkypnxa/image/upload/v1721755168/jeta-student-sitting-and-pressing-laptop-at-the-tech-hub_banner_hhvnsm.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,7 +247,7 @@
 
 /*** Booking ***/
 .booking {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/coding-for-kids-at-jeta.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://res.cloudinary.com/dwxkypnxa/image/upload/v1721755121/coding-for-kids-at-jeta_wbkts6.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -422,7 +422,7 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../img/jeta-student-sitting-and-pressing-laptop-at-the-tech-hub.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(https://res.cloudinary.com/dwxkypnxa/image/upload/v1721755153/jeta-student-sitting-and-pressing-laptop-at-the-tech-hub_ykv9kz.jpg) center center no-repeat;
     background-size: cover;
 }
 
