@@ -558,5 +558,191 @@
     
 }
 
+.container-xxl py-5 h1{
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+
+/* Team section */
+#team .team-item {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#team .team-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.14);
+}
+
+/* Consistent team photos */
+#team .team-image {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: #f3f5f7;
+}
+
+#team .team-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* Team member information */
+#team .team-info {
+    height: calc(100% - 0px);
+    overflow-wrap: anywhere;
+}
+
+#team .team-info h5 {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#team .team-info small {
+    display: block;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* View All Team button */
+.btn-view-team {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 13px 30px;
+    border: 2px solid #198754;
+    border-radius: 50px;
+    background: #198754;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-view-team:hover {
+    background: transparent;
+    color: #198754;
+    transform: translateY(-2px);
+}
+
+.btn-view-team span {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.btn-view-team:hover span {
+    transform: translateX(4px);
+}
+
+/* Small mobile screens */
+@media (max-width: 400px) {
+    #team .row {
+        --bs-gutter-x: 12px;
+    }
+
+    #team .team-info {
+        padding: 12px !important;
+    }
+
+    #team .team-info h5 {
+        font-size: 13px;
+    }
+
+    #team .team-info small {
+        font-size: 11px;
+    }
+}
+
+
+
+/* All Team Page */
+.team-item {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14);
+}
+
+/* Consistent image dimensions */
+.team-item .position-relative {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+.team-item .position-relative img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
+/* Member details */
+.team-item .bg-light {
+    height: 100%;
+    overflow-wrap: anywhere;
+}
+
+.team-item h5 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team-item small {
+    display: block;
+    line-height: 1.6;
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    .team-item h5 {
+        font-size: 13px;
+    }
+
+    .team-item small {
+        font-size: 11px;
+    }
+
+    .team-item .bg-light {
+        padding: 12px !important;
+    }
+}
+
+
+#team .team-image {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+#team .team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
 
 
