@@ -1,27 +1,31 @@
+const SERVICE_GROUPS = [
+    { field: "Training", containerId: "training-services" },
+    { field: "BasicICTServices", containerId: "basic-ict-services" },
+    { field: "ICTConsultancyServices", containerId: "ict-consultancy-services" }
+];
+
 async function loadServices() {
-    const container = document.getElementById("service-container");
-    if (!container) return;
+    const containers = SERVICE_GROUPS
+        .map(group => ({ ...group, container: document.getElementById(group.containerId) }))
+        .filter(group => group.container);
+    if (!containers.length) return;
 
     try {
         const services = await fetchApiCollection("services");
-        if (!services.length) return showApiMessage(container, "Services will be added soon.");
+        containers.forEach(({ field, container }) => {
+            const values = [...new Set(services
+                .map(service => String(service[field] ?? "").trim())
+                .filter(Boolean))];
 
-        container.innerHTML = services.map(service => {
-            const title = service.Title || service.Name || service.ServiceName || service.title || "JETA Service";
-            const description = service.Description || service.description || "";
-            return `<article class="col-md-6 col-lg-4">
-                <div class="service-card h-100">
-                    <img src="${escapeHtml(getApiImageUrl(service.Photo || service.Image))}" alt="${escapeHtml(title)}" loading="lazy">
-                    <div class="p-4">
-                        <h3 class="h5 fw-bold">${escapeHtml(title)}</h3>
-                        ${description ? `<p class="mb-0">${escapeHtml(description)}</p>` : ""}
-                    </div>
-                </div>
-            </article>`;
-        }).join("");
+            container.innerHTML = values.length
+                ? values.map(value => `<p>${escapeHtml(value)}</p>`).join("")
+                : '<p class="text-muted">More services will be added soon.</p>';
+        });
     } catch (error) {
         console.error("Error loading services:", error);
-        showApiMessage(container, "Services are temporarily unavailable.");
+        containers.forEach(({ container }) => {
+            container.innerHTML = '<p class="text-muted" role="status">Services are temporarily unavailable.</p>';
+        });
     }
 }
 

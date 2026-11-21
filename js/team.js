@@ -5,8 +5,17 @@ async function loadTeam() {
     try {
         const members = await fetchApiCollection("teams");
         containers.forEach(container => {
-            const limit = Number(container.dataset.teamLimit) || members.length;
-            const visibleMembers = members.slice(0, limit);
+            const featuredOrder = ["joy", "oluwagbenga", "blessing", "oluwabukola"];
+            const visibleMembers = container.dataset.teamFeatured === "true"
+                ? featuredOrder
+                    .map(keyword => members.find(member =>
+                        String(member.Teamname || member.Name || member.name || "")
+                            .trim()
+                            .toLowerCase()
+                            .includes(keyword)
+                    ))
+                    .filter(Boolean)
+                : members;
             if (!visibleMembers.length) {
                 showApiMessage(container, "Team members will be added soon.");
                 return;

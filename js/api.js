@@ -10,7 +10,7 @@ function getApiImageUrl(image) {
     const media = Array.isArray(image) ? image[0] : image;
     const file = media?.data || media;
     const attributes = file?.attributes || file;
-    const url = attributes?.url || attributes?.formats?.medium?.url || attributes?.formats?.small?.url;
+    const url = attributes?.formats?.medium?.url || attributes?.formats?.small?.url || attributes?.url;
 
     if (!url) return FALLBACK_IMAGE;
     if (/^https?:\/\//i.test(url)) return url;

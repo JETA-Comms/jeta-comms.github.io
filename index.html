@@ -448,17 +448,51 @@
 
 
     <!-- Service Start -->
-    <section class="container-xxl service py-5" id="services">
+    <div class="container-xxl service py-5" id="services">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-primary text-uppercase">// Our Services //</h6>
                 <h1 class="green mb-5">Explore Our Services</h1>
             </div>
-            <div class="row g-4" id="service-container" aria-live="polite">
-                <div class="col-12"><p class="text-center text-muted">Loading services…</p></div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4" role="tablist">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button" role="tab" aria-controls="tab-pane-1" aria-selected="true">
+                            <h4 class="m-0">Training</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button" role="tab" aria-controls="tab-pane-2" aria-selected="false">
+                            <h4 class="m-0">Basic ICT Services</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button" role="tab" aria-controls="tab-pane-3" aria-selected="false">
+                            <h4 class="m-0">ICT Consultancy Services</h4>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100" id="service-container" aria-live="polite">
+                        <div class="tab-pane fade show active" id="tab-pane-1" role="tabpanel">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;"><div class="position-relative h-100"><img class="position-absolute img-fluid w-100 h-100" src="https://res.cloudinary.com/dwxkypnxa/image/upload/v1721755174/SCRATCH_jygepy.jpg" style="object-fit: cover;" alt="JETA students learning programming"></div></div>
+                                <div class="col-md-6" id="training-services"><p class="text-muted">Loading services…</p></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2" role="tabpanel">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;"><div class="position-relative h-100"><img class="position-absolute img-fluid w-100 h-100" src="https://res.cloudinary.com/dwxkypnxa/image/upload/v1721756235/student-at-jeta-working-on-a-lapto_rknqyx.jpg" style="object-fit: cover;" alt="Student working at JETA"></div></div>
+                                <div class="col-md-6" id="basic-ict-services"><p class="text-muted">Loading services…</p></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3" role="tabpanel">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;"><div class="position-relative h-100"><img class="position-absolute img-fluid w-100 h-100" src="https://res.cloudinary.com/dwxkypnxa/image/upload/v1721755151/jeta-student-at-work_hika4o.jpg" style="object-fit: cover;" alt="JETA student at work"></div></div>
+                                <div class="col-md-6" id="ict-consultancy-services"><p class="text-muted">Loading services…</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Service End -->
 
 
@@ -539,7 +573,7 @@
                 <h6 class="text-primary text-uppercase">// JETA team //</h6>
                 <h1 class="mb-5 green">JETA Team</h1>
             </div>
-            <div class="row g-4" id="team-container" data-team-list data-team-limit="4" aria-live="polite">
+            <div class="row g-4 home-team-list" id="team-container" data-team-list data-team-featured="true" aria-live="polite">
                 <div class="col-12"><p class="text-center text-muted">Loading team…</p></div>
 
 
